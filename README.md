@@ -1,11 +1,11 @@
 # Overview
-* You are given a stock dataset measured over a period of time. 
-* A train set and a test set are given. 
-* The goal is to learn about the train set and make predictions through the test set.
+* A set of stock data measured over a period of time is given.
+* Training and testing sets are given.
+* The goal is to learn about the training set and make predictions through the test set.
 
 # Data Description
-*Input data*
-Each column of the data set consists of date information, item information, and feature set. The feature set is blurred. Features consist of data values ​​that are judged to be meaningful for each stock.
+*Input data*  
+Each column of the data set consists of date information, item information, and feature set. The names of features are blurred. Features consist of data values that are judged to be meaningful for each stock.
 
 *Target data*
 Two correct answer data for the train set are given, and the correct answer for the test set is given. The correct answer data is created with the following unit time (T) returns for each sample time.
