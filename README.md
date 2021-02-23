@@ -1,13 +1,18 @@
-# Overview
-* A set of stock data measured over a period of time is given.
-* Training and testing sets are given.
-* The goal is to learn about the training set and make predictions through the test set.
+# 개요
+* 일정기간동안 측정된 주식 데이터셋이 주어집니다.
+* Train set과 Test set이 주어집니다.
+* Train set에 대해서 학습을 진행하고, Test Set을 통한 prediction을 만드는 것이 목표입니다.
 
-# Data Description
+# 데이터 설명
+  
 *Input data*  
-Each column of the data set consists of date information, item information, and feature set. The names of features are blurred. Features consist of data values that are judged to be meaningful for each stock.
+  
+* 데이터셋의 각 column은 날짜정보와 종목정보, 그리고 Feature set으로 이루어져 있습니다. Feature set은 blur 처리되어 있습니다. 
+* Feature는 각 종목들의 유의미하다고 판단되는 데이터 값으로 이루어져 있습니다.
 
 *Target data*
-Two correct answer data for the train set are given, and the correct answer for the test set is given. The correct answer data is created with the following unit time (T) returns for each sample time.
-Correct answer data 1: Unit time (T) Return (train_target.csv) -> Regression
-Correct answer data 2: Target (train_target2.csv)-> Classification classified by dividing the unit time rate of return of the stocks (correct answer data 1) into 5 quartiles at a specific point in time.
+  
+* Train set에 대해서는 정답 데이터 2개가 주어지고, Test set에 대해서는 정답이 주어지지 않습니다. 정답 데이터들은 각 샘플 시간 기준으로 다음 단위시간(T) 수익률로 만들어집니다.
+* 정답 데이터1: 단위시간(T) 수익률 (train_target.csv) → Regression
+* 정답 데이터2: 특정 한 시점에서 종목들의 단위 시간 수익률(정답데이터 1)을 5분위로 나누어 분류한 Target (train_target2.csv) → Classification
+
