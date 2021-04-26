@@ -11,7 +11,7 @@
 *Target data*
 * Train set에 대해서는 정답 데이터 2개가 주어지고, Test set에 대해서는 정답이 주어지지 않습니다. 정답 데이터들은 각 샘플 시간 기준으로 다음 단위 시간(T) 수익률로 만들어집니다.
   * 정답 데이터 1: 단위 시간(T) 수익률 (train_target.csv) → Regression
-  * 정답 데이터 2: 특정 한 시점에서 종목들의 단위 시간 수익률(정답 데이터 1)을 5 분위로 나누어 분류한 Target (train_target2.csv) → Classification
+  * 정답 데이터 2: 특정 한 시점에서 종목들의 단위 시간 수익률(정답 데이터 1)을 5 분위로 나누어 분류한 target (train_target2.csv) → Classification
 
 # 세부사항
 * 어떤 정답을 학습시키느냐에 따라 regression 접근, 혹은 5 분위 중 어떤 위치에 있을지 예측하는 classification 접근법이 있습니다. 
