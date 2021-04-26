@@ -5,7 +5,7 @@
 
 # 데이터 설명
 *Input data*  
-* 데이터셋의 각 column은 날짜 정보와 종목정보, 그리고 feature set으로 이루어져 있습니다. feature set은 blur 처리되어 있습니다. 
+* 데이터셋의 각 column은 날짜 정보와 종목정보, 그리고 feature set으로 이루어져 있습니다. Feature set은 blur 처리되어 있습니다. 
 * Feature는 각 종목들의 유의미하다고 판단되는 데이터 값으로 이루어져 있습니다.
 
 *Target data*
